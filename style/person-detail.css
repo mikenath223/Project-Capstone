@@ -52,8 +52,9 @@ body {
   display: grid;
   grid-template-columns: 3fr 5fr 3fr;
   gap: 10px;
-  margin: 10px auto;
+  margin: 20px auto;
   width: 95%;
+  height: 480px;
 }
 
 .main-container img {
@@ -116,4 +117,112 @@ body {
 
 .mid-buttons .fa-heart {
   color: #fff;
+}
+
+.mid-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.users {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-user {
+  position: relative;
+}
+
+.users h3 {
+  transform: rotate(90deg);
+  height: 25px;
+}
+
+.first-user p {
+  position: absolute;
+  color: #fff;
+  background-color: #f0916e;
+  width: 17px;
+  text-align: center;
+  border-radius: 50%;
+  top: 15px;
+  right: -7px;
+}
+
+.head-pic {
+  position: relative;
+  margin-top: 15px;
+  border-radius: 10px;
+  height: 85%;
+  background: top center / cover url(../images/office-staff.jpg) no-repeat;
+}
+
+.head-pic-location {
+  height: 10%;
+}
+
+.head-pic-location .fas {
+  position: relative;
+  top: 60%;
+  left: 7%;
+  color: #fff;
+}
+
+.fa-long-arrow-alt-left {
+  display: none;
+}
+
+/* .fa-location-arrow {
+  
+} */
+
+.indicator {
+  position: relative;
+  left: 90%;
+  height: 50px;
+  width: 82px; 
+  transform: rotate(90deg);
+}
+
+.indicator p {
+  display: inline;
+  font-size: 58px;
+}
+
+.dull {
+  color: gray;
+}
+
+.active {
+  color: #f0916e;
+}
+
+.mid-buttons {
+  position: absolute;
+  bottom: 5%;
+  left: 7%;
+  width: 80%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mid-buttons button {
+  width: 14%;
+  height: 95%;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 28px;
+  color: silver;
+}
+
+.mid-buttons .cancel-button {
+  background-color: #f0916e;
+  color: #fff;
+}
+
+.mid-buttons .heart-button {
+  background-color: #4e50b8;
 }
