@@ -31,7 +31,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 15%; */
 }
 
 .fa-user-circle {
@@ -182,21 +181,20 @@ body {
 }
 
 .indicator {
-  position: relative;
+  position: absolute;
   left: 80%;
   width: 82px;
-  height: max-content;
   transform: rotate(90deg);
 }
 
 .indicator p {
-  display: inline;
+  display: inline-block;
   font-size: 58px;
-  margin: 0;
+  vertical-align: text-bottom;
 }
 
 .dull {
-  color: gray;
+  color: rgba(233, 227, 227, 0.9);
 }
 
 .active {
@@ -215,12 +213,13 @@ body {
 
 .mid-buttons button {
   width: 14%;
-  height: 95%;
+  height: 40px;
   border: none;
   border-radius: 5px;
   background-color: #fff;
   font-size: 28px;
   color: silver;
+  box-shadow: 2px 2px 6px #000;
 }
 
 .mid-buttons .cancel-button {
@@ -238,6 +237,7 @@ body {
 }
 
 .filter {
+  display: flex;
   padding: 5px 0 0 7px;
   height: 80%;
   border-radius: 10px;
@@ -245,6 +245,11 @@ body {
 
 .filter input {
   border: none;
+}
+
+.filter .fa-buffer {
+  margin-left: auto;
+  padding: 5px 10px 0 0;
 }
 
 .user-details * {
@@ -329,6 +334,10 @@ body {
   .smallscreen-bottom {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
+    margin-top: 30px;
+  }
+  .mid-buttons {
+    bottom: -5%;
   }
   .head-pic {
     height: 330px;
@@ -345,6 +354,10 @@ body {
   }
   .chat {
     padding: 20px;
+  }
+  .interest,
+  .lang {
+    padding-top: 10px;
   }
   .more,
   .filter,
