@@ -1,9 +1,7 @@
 @font-face {
   font-family: "Helvetica Neue";
-  src:
-  url("../style/fonts/HelveticaNeuBold.ttf") format("truetype"),
-  url("../style/fonts/helveticaneue-webfont.woff") format("woff"),
-}  
+  src: url("../style/fonts/HelveticaNeuBold.ttf") format("truetype"), url("../style/fonts/helveticaneue-webfont.woff") format("woff"),
+}
 
 body {
   font-family: "Helvetica Neue", sans-serif;
@@ -21,9 +19,11 @@ body {
   border-radius: 20px 20px 0 0;
 }
 
-.head .fas {
+.fas,
+.fab {
   color: #414464;
   font-size: 21px;
+  margin: 0 5px;
 }
 
 .head-profile {
@@ -42,7 +42,6 @@ body {
 .head-logo {
   color: #4e50b8;
   font-size: 30px;
-  
 }
 
 .head-logo span {
@@ -50,5 +49,71 @@ body {
 }
 
 .main-container {
-  margin: 0 10px;
+  display: grid;
+  grid-template-columns: 3fr 5fr 3fr;
+  gap: 10px;
+  margin: 10px auto;
+  width: 95%;
+}
+
+.main-container img {
+  max-width: 43px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.left-side {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
+
+.user-panel {
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  gap: 5px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 5px;
+  height: 70px;
+}
+
+.user-info {
+  margin-left: 10px;
+}
+
+.user-info h4 {
+  margin-bottom: 5px;
+}
+
+.user-info span {
+  color: #4e50b8;
+}
+
+.user-panel .fa-heart {
+  color: #f0916e;
+}
+
+.left-side-bottom {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 70%;
+  margin-top: 20px;
+  color: rgb(71, 70, 70);
+}
+
+.left-side-bottom .msg-count {
+  display: inline-block;
+  margin-left: 80px;
+  width: 40px;
+  color: #fff;
+  background-color: #f0916e;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 2px 2px 6px #414464;
+}
+
+.mid-buttons .fa-heart {
+  color: #fff;
 }
