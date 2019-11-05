@@ -12,27 +12,68 @@
 </head>
 
 <body>
-  <main>
-    <header>
-      <div class="head-location"> <p>Location: Wincousin, U.S.A </p> </div>
-       Mix<span class="head-logo">in</span> 
-      </header>
-    <section class="head-pic">
-        <i class="fas fa-long-arrow-alt-left"></i>
-        <div class="indicator">
-          <p class="dull">.</p>
-          <p class="dull">.</p>
-          <p class="active">.</p>
-          <p class="dull">.</p>
+  <header class="head">
+    <div class="head-location">
+      <p><i class="fas fa-map-marked-alt"></i> Location: Wincousin, U.S.A</p>
+    </div>
+    <h4 class="head-logo">Mix<span>in</span></h4>
+    <div class="head-profile">
+      <i class="fas fa-file-alt"></i>
+      <i class="fas fa-bell"></i>
+      <i class="fas fa-user-circle"></i>
+    </div>
+  </header>
+  <main class="main-container">
+    <aside class="left-side">
+      <div class="user-panel">
+        <img src="images/40.jpg" alt="user">
+        <div class="user-info">
+          <h4>Percy Jackson</h4>
+          <small>Role:<span>Full Stack Web-Dev</span></small>
         </div>
+        <p><i class="far fa-heart"></i> 257</p>
+      </div>
+      <div class="left-side-bottom">
+        <p>Nearby Co-workers</p>
+        <p>Shuffle Search</p>
+        <p><i class="fas fa-comments"></i> Messages <span class="msg-count">32</span></p>
+        <p><i class="fas fa-chart-line"></i> Popularity Rating</p>
+        <p><i class="fab fa-buffer"></i>Daily Tasks</p>
+      </div>
+    </aside>
+    <div class="users">
+      <img src="images/83.jpg" alt="users">
+      <img src="images/128.jpg" alt="users">
+      <img src="images/27.jpg" alt="users">
+      <img src="images/3.jpg" alt="users">
+      <img src="images/56.jpg" alt="users">
+      <img src="images/62.jpg" alt="users">
+      <img src="images/44.jpg" alt="users">
+    </div>
+    <section class="head-pic">
+      <div class="head-pic-location">
+        <i class="fas fa-location-arrow"></i>
+        <i class="fas fa-long-arrow-alt-left"></i>
+      </div>
+      <div class="indicator">
+        <p class="dull">.</p>
+        <p class="dull">.</p>
+        <p class="active">.</p>
+        <p class="dull">.</p>
+      </div>
       <div class="mid-buttons">
-        <button><</button>
-        <button><i class="fas fa-heart"></i></button>
+        <button>
+          <</button> <button><i class="fas fa-heart"></i>
+        </button>
         <button>x</button>
         <button>></button>
       </div>
     </section>
     <section class="user-details">
+      <div class="filter">
+        <input type="search" name="search" placeholder="Filter search">
+        <i class="fab fa-buffer"></i>
+      </div>
       <div class="name-locate">
         <div class="name-age">
           <small>Name Surname, Age</small>
@@ -51,7 +92,7 @@
         <small>Language</small>
         <p>English(Proficient), Japanese(Conversational).</p>
       </div>
-        <p class="chat"><i class="fas fa-comments"></i>Say hi</p>
+      <p class="chat"><i class="fas fa-comments"></i>Say hi</p>
     </section>
   </main>
 </body>

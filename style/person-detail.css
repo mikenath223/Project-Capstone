@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src:
+  url("../style/fonts/HelveticaNeuBold.ttf") format("truetype"),
+  url("../style/fonts/helveticaneue-webfont.woff") format("woff"),
+}  
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: rgba(192, 192, 192, 0.16);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 10px;
+  background-color: #fff;
+  margin-top: 25px;
+  border-radius: 20px 20px 0 0;
+}
+
+.head .fas {
+  color: #414464;
+  font-size: 21px;
+}
+
+.head-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+}
+
+.fa-user-circle {
+  border-left: 1px solid gray;
+  width: 30%;
+  padding-left: 15px;
+}
+
+.head-logo {
+  color: #4e50b8;
+  font-size: 30px;
+  
+}
+
+.head-logo span {
+  color: #f0916e;
+}
+
+.main-container {
+  margin: 0 10px;
+}
