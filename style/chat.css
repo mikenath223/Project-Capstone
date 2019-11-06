@@ -21,7 +21,7 @@ body {
 }
 
 .fas,
- .fab {
+.fab {
   color: silver;
   font-size: 18px;
   margin: 0 5px;
@@ -106,7 +106,7 @@ body {
 }
 
 .fa-cog,
- .fa-check-circle {
+.fa-check-circle {
   font-size: 17px;
   padding-right: 5px;
 }
@@ -272,8 +272,8 @@ body {
 }
 
 .fa-buffer,
- .fa-bookmark,
- .fa-envelope-open-text {
+.fa-bookmark,
+.fa-envelope-open-text {
   font-size: 30px;
   color: silver;
 }
@@ -293,10 +293,10 @@ body {
 
 @media only screen and (max-width: 530px) {
   .left-side,
- .head-location p,
- .head-logo,
- .head-profile,
- .left-container .large-screen {
+  .head-location p,
+  .head-logo,
+  .head-profile,
+  .left-container .large-screen {
     display: none;
   }
 
@@ -331,8 +331,8 @@ body {
   }
 
   .fa-buffer,
- .fa-search,
- .fa-user {
+  .fa-search,
+  .fa-user {
     color: silver;
     font-size: 20px;
   }
@@ -356,6 +356,7 @@ body {
     height: 35px;
     padding: 5px 0;
   }
+
   .chat-small {
     display: flex;
     position: relative;

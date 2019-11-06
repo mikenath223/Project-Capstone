@@ -21,7 +21,7 @@ body {
 }
 
 .fas,
- .fab {
+.fab {
   color: silver;
   font-size: 18px;
   margin: 0 5px;
@@ -106,7 +106,7 @@ body {
 }
 
 .fa-cog,
- .fa-check-circle {
+.fa-check-circle {
   font-size: 17px;
   padding-right: 5px;
 }
@@ -336,17 +336,17 @@ body {
 }
 
 .smallscreen,
- .top-chatbar .online-top,
- .online-green {
+.top-chatbar .online-top,
+.online-green {
   display: none;
 }
 
 @media only screen and (max-width: 530px) {
   .left-side,
- .top-chatbar .ellipsis,
- .top-chatbar .largescreen,
- .online-top,
- .head {
+  .top-chatbar .ellipsis,
+  .top-chatbar .largescreen,
+  .online-top,
+  .head {
     display: none;
   }
 
