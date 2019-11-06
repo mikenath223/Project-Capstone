@@ -368,14 +368,11 @@ body {
 
   .online-green {
     display: inline;
+    color: green;
   }
 
   .smallscreen {
     display: inline;
     color: #414464;
-  }
-
-  .online-green {
-    color: green;
   }
 }
