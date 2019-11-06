@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url('../style/fonts/HelveticaNeuBold.ttf') format('truetype'),
+  src:
+    url('../style/fonts/HelveticaNeuBold.ttf') format('truetype'),
     url('../style/fonts/helveticaneue-webfont.woff') format('woff');
 }
 
@@ -331,7 +332,7 @@ body {
 .filter {
   display: flex;
   padding-left: 10px;
-  margin-bottom:  20px;
+  margin-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -411,41 +412,52 @@ body {
   .head {
     display: none;
   }
+
   .main-container {
     grid-template-columns: 1fr;
   }
+
   .mid-container {
     display: flex;
     flex-direction: column;
   }
+
   .smallscreen-bottom {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     margin-top: 30px;
   }
+
   .mid-buttons {
     bottom: -5%;
   }
+
   .head-pic {
     height: 330px;
   }
+
   .head-pic-location .fa-location-arrow {
     display: none;
   }
+
   .head-pic-location .fa-long-arrow-alt-left {
     display: inline;
   }
+
   .name-locate {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   .chat {
     padding: 20px;
   }
+
   .interest,
   .lang {
     padding-top: 10px;
   }
+
   .more,
   .filter,
   .users {

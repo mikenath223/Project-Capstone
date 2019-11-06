@@ -20,7 +20,8 @@ body {
   border-radius: 20px 20px 0 0;
 }
 
-.fas, .fab {
+.fas,
+ .fab {
   color: silver;
   font-size: 18px;
   margin: 0 5px;
@@ -104,7 +105,8 @@ body {
   border-radius: 5px;
 }
 
-.fa-cog, .fa-check-circle {
+.fa-cog,
+ .fa-check-circle {
   font-size: 17px;
   padding-right: 5px;
 }
@@ -333,33 +335,46 @@ body {
   text-align: center;
 }
 
-.smallscreen, .top-chatbar .online-top, .online-green {
+.smallscreen,
+ .top-chatbar .online-top,
+ .online-green {
   display: none;
 }
 
 @media only screen and (max-width: 530px) {
-  .left-side, .top-chatbar .ellipsis, .top-chatbar .largescreen, .online-top, .head {
+  .left-side,
+ .top-chatbar .ellipsis,
+ .top-chatbar .largescreen,
+ .online-top,
+ .head {
     display: none;
   }
+
   .main-container {
     grid-template-columns: 1fr;
   }
+
   .left-container {
     height: 60%;
   }
+
   .chat-msg-body h4 {
     height: 40px;
   }
+
   .doc-time {
     margin-left: 0;
   }
+
   .online-green {
     display: inline;
   }
+
   .smallscreen {
     display: inline;
     color: #414464;
   }
+
   .online-green {
     color: green;
   }
