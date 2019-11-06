@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/81924b44b8.js" crossorigin="anonymous"></script>
-  <title>Person Detail Page</title>
+  <title>User Page | Mixin Social App</title>
   <link rel="stylesheet" href="style/Normalize.css">
   <link rel="stylesheet" href="style/person-detail.css">
 </head>
@@ -26,12 +26,18 @@
   <main class="main-container">
     <aside class="left-side">
       <div class="user-panel">
-        <img src="images/40.jpg" alt="user">
-        <div class="user-info">
-          <h4>Percy Jackson</h4>
-          <h5>Role:<span>Full Stack Web-Dev</span></h5>
+        <div class="user-panel-temp">
+          <img src="images/40.jpg" alt="user">
+          <div class="user-info">
+            <h4>Percy Jackson</h4>
+            <h5>Role:<span>Full Stack Web-Dev</span></h5>
+          </div>
+          <i class="fas fa-cog"></i>
         </div>
+        <div class="go-live">
         <p><i class="far fa-heart"></i> 257</p>
+        <button><i class="far fa-check-circle"></i>Go Live!</button>
+      </div>
       </div>
       <div class="left-side-bottom">
         <p><i class="fab fa-servicestack"></i>Nearby Co-workers</p>
@@ -41,40 +47,40 @@
         <p><i class="fab fa-buffer"></i>Daily Tasks</p>
       </div>
     </aside>
-    <section class="mid-container">      
-    <div class="users">
-      <div class="first-user">
-        <img src="images/44.jpg" alt="users">
-        <p>x</p>
+    <section class="mid-container">
+      <div class="users">
+        <div class="first-user">
+          <img src="images/44.jpg" alt="users">
+          <p>x</p>
+        </div>
+        <h3>...</h3>
+        <img src="images/83.jpg" alt="users">
+        <img src="images/27.jpg" alt="users">
+        <img src="images/3.jpg" alt="users">
+        <img src="images/56.jpg" alt="users">
+        <img src="images/62.jpg" alt="users">
+        <img src="images/128.jpg" alt="users">
       </div>
-      <h3>...</h3>
-      <img src="images/83.jpg" alt="users">
-      <img src="images/27.jpg" alt="users">
-      <img src="images/3.jpg" alt="users">
-      <img src="images/56.jpg" alt="users">
-      <img src="images/62.jpg" alt="users">
-      <img src="images/128.jpg" alt="users">
-    </div>
-    <div class="head-pic">
-      <div class="head-pic-location">
-        <i class="fas fa-location-arrow">230m</i>
-        <i class="fas fa-long-arrow-alt-left"></i>
+      <div class="head-pic">
+        <div class="head-pic-location">
+          <i class="fas fa-location-arrow">230m</i>
+          <i class="fas fa-long-arrow-alt-left"></i>
+        </div>
+        <div class="indicator">
+          <p class="dull">.</p>
+          <p class="dull">.</p>
+          <p class="active">.</p>
+          <p class="dull">.</p>
+        </div>
+        <div class="mid-buttons">
+          <button class="shift-buttons">
+            <</button> <button class="heart-button"><i class="fas fa-heart"></i>
+          </button>
+          <button class="cancel-button">x</button>
+          <button class="shift-buttons">></button>
+        </div>
       </div>
-      <div class="indicator">
-        <p class="dull">.</p>
-        <p class="dull">.</p>
-        <p class="active">.</p>
-        <p class="dull">.</p>
-      </div>
-      <div class="mid-buttons">
-        <button class="shift-buttons"><</button> 
-          <button class="heart-button"><i class="fas fa-heart"></i>
-        </button>
-        <button class="cancel-button">x</button>
-        <button class="shift-buttons">></button>
-      </div>
-    </div>
-    <div class="smallscreen-bottom">
+      <div class="smallscreen-bottom">
         <div class="filter">
           <input type="search" name="search" placeholder="Filter search">
           <i class="fab fa-buffer"></i>
@@ -100,7 +106,7 @@
         </div>
         <h2 class="chat"><i class="fas fa-comments"></i>CHAT</h2>
       </div>
-  </section>
+    </section>
     <aside class="user-details">
       <div class="filter">
         <input type="search" name="search" placeholder="Filter search">

@@ -71,13 +71,49 @@ body {
 
 .user-panel {
   display: grid;
-  grid-template-columns: 1fr 5fr 2fr;
+  grid-template-rows: 2fr 1fr;
   gap: 5px;
   align-items: center;
   background-color: #fff;
   border-radius: 10px;
   padding: 0 5px;
-  height: 70px;
+  height: 120px;
+}
+
+.user-panel-temp {
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  gap: 5px;
+}
+
+.go-live {
+  display: flex;
+  justify-content: space-around;
+}
+
+.go-live button {
+  background-color: #4e50b8;
+  border: none;
+  color: #fff;
+  width: 60%;
+  height: 25px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.fa-cog,
+.fa-check-circle {
+  font-size: 17px;
+  color: #fff;
+  padding-right: 5px; 
+}
+
+.fa-cog {
+  padding: 10px;
+}
+
+.user-panel-temp .fa-cog {
+  color: #41446475;
 }
 
 .user-info {
