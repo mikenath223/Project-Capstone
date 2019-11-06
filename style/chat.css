@@ -28,6 +28,8 @@ body {
 
 .head-profile {
   display: flex;
+  width: 30%;
+  margin-left: auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -140,11 +142,19 @@ body {
   font-size: 13px;
 }
 
+.left-side-bottom p {
+  display: grid;
+  grid-template-columns: 1fr 4fr 5fr;
+  align-content: flex-start;
+}
+
 .left-side-bottom .msg-left {
   display: grid;
   grid-template-columns: 1fr 4fr 5fr;
   align-content: flex-start;
 }
+
+
 
 .left-side-bottom .msg-count {
   display: inline-block;
