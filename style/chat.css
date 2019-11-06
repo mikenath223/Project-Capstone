@@ -177,6 +177,7 @@ body {
   display: grid;
   position: relative;
   grid-template-rows: repeat(9, 1fr);
+  margin-bottom: 70px;
 }
 
 .search-users {
@@ -243,14 +244,64 @@ body {
   color: blue;
 }
 
-.fas {
+.fa-check {
   font-size: 13px;
 }
 
 .bottom-chat {
   display: flex;
   position: absolute;
-  bottom: -5%;
+  bottom: -9%;
   width: 100%;
-  height: 50px;
+  height: 70px;
+  background-color: #fff;
+}
+
+.bottom-chat div {
+  width: 34%;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.fa-buffer,
+.fa-bookmark,
+.fa-envelope-open-text {
+  font-size: 30px;
+  color: silver;
+}
+
+.fa-envelope-open-text {
+  color: #4e50b8;
+}
+
+.blue-border {
+  border-top: 3px solid #4e50b8;
+  background-color: #4e50b821;
+}
+
+.smallscreen {
+  display: none;
+}
+
+@media only screen and (max-width: 530px) {
+  .left-side,
+  .head-location p,
+  .head-logo,
+  .head-profile,
+  .large-screen
+   {
+    display: none;
+  }
+  .smallscreen {
+    display: inline-block;
+  }
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+  .head .smallscreen {
+    color: #414464;
+  }
+  .head .fa-edit {
+    text-align: end;
+  }
 }
