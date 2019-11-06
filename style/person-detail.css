@@ -32,6 +32,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 30%;
+  margin: 0 15px 0 auto;
 }
 
 .fa-user-circle {
