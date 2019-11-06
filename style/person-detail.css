@@ -198,7 +198,7 @@ body {
   position: relative;
   margin-top: 15px;
   border-radius: 10px;
-  height: 85%;
+  height: 58%;
   background: top center / cover url(../images/office-staff.jpg) no-repeat;
 }
 
@@ -269,14 +269,47 @@ body {
 }
 
 .user-details {
-  display: grid;
-  grid-template-rows: repeat(auto-fit, 1fr);
+  display: flex;
+  flex-direction: column;
+  /* grid-template-rows: repeat(auto-fit, 1fr); */
+}
+
+.pop-rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.pop-rating div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pop-rating button {
+  border: none;
+  background-color: #4e50b8;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.pop-rating small {
+  color: gray;
+}
+
+.pop-rating img {
+  max-width: 28%;
+  height: auto;
 }
 
 .filter {
   display: flex;
-  padding: 5px 0 0 7px;
-  height: 40%;
+  padding-left: 10px;
+  margin-bottom:  20px;
   border-radius: 10px;
 }
 
@@ -284,7 +317,7 @@ body {
   border: none;
 }
 
-.filter .fa-buffer {
+.filter .fa-list-ul {
   margin-left: auto;
   padding: 5px 10px 0 0;
 }
@@ -294,7 +327,7 @@ body {
 }
 
 .name-locate {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .name-locate,
@@ -324,22 +357,16 @@ body {
   padding: 0 40px;
 }
 
-.chat img {
-  color: #4e50b8;
-  font-size: 35px;
-}
-
 .online {
   font-size: 25px;
   color: green;
 }
 
 .more {
-  margin-top: 45px;
+  margin: 10px;
   text-align: center;
   height: 30px;
   width: 80%;
-  padding-top: 5px;
   background-color: rgba(192, 192, 192, 0.274);
 }
 
