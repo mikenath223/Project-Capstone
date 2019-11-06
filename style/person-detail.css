@@ -23,8 +23,8 @@ body {
 
 .fas,
 .fab {
-  color: #414464;
-  font-size: 21px;
+  color: silver;
+  font-size: 18px;
   margin: 0 5px;
 }
 
@@ -68,6 +68,7 @@ body {
 .left-side {
   display: grid;
   grid-template-rows: 1fr 5fr;
+  height: 80%;
 }
 
 .user-panel {
@@ -105,11 +106,10 @@ body {
 .fa-cog,
 .fa-check-circle {
   font-size: 17px;
-  color: #fff;
   padding-right: 5px;
 }
 
-.fa-cog {
+.user-panel .fa-cog {
   padding: 10px;
 }
 
@@ -137,14 +137,15 @@ body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  height: 70%;
+  height: 50%;
   margin-top: 20px;
-  color: rgb(71, 70, 70);
+  color: silver;
+  font-size: 13px;
 }
 
 .left-side-bottom .msg-left {
   display: grid;
-  grid-template-columns: 1fr 1fr 5fr;
+  grid-template-columns: 1fr 4fr 5fr;
   align-content: flex-start;
 }
 
@@ -159,6 +160,12 @@ body {
   box-shadow: 2px 2px 6px #414464;
 }
 
+.left-side-bottom .count {
+  background-color: silver;
+  color: gray;
+  box-shadow: none;
+}
+
 .mid-buttons .fa-heart {
   color: #fff;
 }
@@ -166,6 +173,7 @@ body {
 .mid-container {
   width: 95%;
   margin: 0 auto;
+  height: 80%;
 }
 
 .users {
@@ -271,7 +279,12 @@ body {
 .user-details {
   display: flex;
   flex-direction: column;
-  /* grid-template-rows: repeat(auto-fit, 1fr); */
+  height: 80%;
+}
+
+.user-details small {
+  color: gray;
+  font-size: 12px;
 }
 
 .pop-rating {
@@ -354,7 +367,7 @@ body {
 .chat {
   border-radius: 0 0 10px 10px;
   text-align: center;
-  padding: 0 40px;
+  padding: 10px 40px;
 }
 
 .online {
