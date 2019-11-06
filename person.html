@@ -1,88 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/81924b44b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>User Page | Mixin Social App</title>
+    <link rel="stylesheet" href="style/Normalize.css" />
+    <link rel="stylesheet" href="style/person-detail.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://kit.fontawesome.com/81924b44b8.js" crossorigin="anonymous"></script>
-  <title>User Page | Mixin Social App</title>
-  <link rel="stylesheet" href="style/Normalize.css">
-  <link rel="stylesheet" href="style/person-detail.css">
-</head>
-
-<body>
-  <header class="head">
-    <div class="head-location">
-      <p><i class="fas fa-map-marked-alt"></i> Location: Wincousin, U.S.A</p>
-    </div>
-    <h4 class="head-logo">Mix<span>in</span></h4>
-    <div class="head-profile">
-      <i class="fas fa-file-alt"></i>
-      <i class="fas fa-bell"></i>
-      <i class="fas fa-user-circle"></i>
-    </div>
-  </header>
-  <main class="main-container">
-    <aside class="left-side">
-      <div class="user-panel">
-        <div class="user-panel-temp">
-          <img src="images/40.jpg" alt="user">
-          <div class="user-info">
-            <h4>Percy Jackson</h4>
-            <h5>Role:<span>Full Stack Web-Dev</span></h5>
+  <body>
+    <header class="head">
+      <div class="head-location">
+        <p><i class="fas fa-map-marked-alt"></i> Location: Wincousin, U.S.A</p>
+      </div>
+      <h4 class="head-logo">Mix<span>in</span></h4>
+      <div class="head-profile">
+        <i class="fas fa-file-alt"></i>
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-user-circle"></i>
+      </div>
+    </header>
+    <main class="main-container">
+      <aside class="left-side">
+        <div class="user-panel">
+          <div class="user-panel-temp">
+            <img src="images/40.jpg" alt="user" />
+            <div class="user-info">
+              <h4>Percy Jackson</h4>
+              <h5>Role:<span>Full Stack Web-Dev</span></h5>
+            </div>
+            <i class="fas fa-cog"></i>
           </div>
-          <i class="fas fa-cog"></i>
+          <div class="go-live">
+            <p><i class="far fa-heart"></i> 257</p>
+            <button><i class="far fa-check-circle"></i>Go Live!</button>
+          </div>
         </div>
-        <div class="go-live">
-        <p><i class="far fa-heart"></i> 257</p>
-        <button><i class="far fa-check-circle"></i>Go Live!</button>
-      </div>
-      </div>
-      <div class="left-side-bottom">
-        <p><i class="fab fa-servicestack"></i>Nearby Co-workers</p>
-        <p><i class="fas fa-random"></i>Shuffle Search</p>
-        <p class="msg-left"><i class="fas fa-comments"></i> Messages <span class="msg-count">32</span></p>
-        <p><i class="fas fa-chart-line"></i> Popularity Rating</p>
-        <p><i class="fab fa-buffer"></i>Daily Tasks</p>
-      </div>
-    </aside>
-    <section class="mid-container">
-      <div class="users">
-        <div class="first-user">
-          <img src="images/44.jpg" alt="users">
-          <p>x</p>
+        <div class="left-side-bottom">
+          <p><i class="fab fa-servicestack"></i>Nearby Co-workers</p>
+          <p><i class="fas fa-random"></i>Shuffle Search</p>
+          <p class="msg-left">
+            <i class="fas fa-comments"></i> Messages
+            <span class="msg-count">32</span>
+          </p>
+          <p><i class="fas fa-chart-line"></i> Popularity Rating</p>
+          <p><i class="fab fa-buffer"></i>Daily Tasks</p>
         </div>
-        <h3>...</h3>
-        <img src="images/83.jpg" alt="users">
-        <img src="images/27.jpg" alt="users">
-        <img src="images/3.jpg" alt="users">
-        <img src="images/56.jpg" alt="users">
-        <img src="images/62.jpg" alt="users">
-        <img src="images/128.jpg" alt="users">
-      </div>
-      <div class="head-pic">
-        <div class="head-pic-location">
-          <i class="fas fa-location-arrow">230m</i>
-          <i class="fas fa-long-arrow-alt-left"></i>
+      </aside>
+      <section class="mid-container">
+        <div class="users">
+          <div class="first-user">
+            <img src="images/44.jpg" alt="users" />
+            <p>x</p>
+          </div>
+          <h3>...</h3>
+          <img src="images/83.jpg" alt="users" />
+          <img src="images/27.jpg" alt="users" />
+          <img src="images/3.jpg" alt="users" />
+          <img src="images/56.jpg" alt="users" />
+          <img src="images/62.jpg" alt="users" />
+          <img src="images/128.jpg" alt="users" />
         </div>
-        <div class="indicator">
-          <p class="dull">.</p>
-          <p class="dull">.</p>
-          <p class="active">.</p>
-          <p class="dull">.</p>
+        <div class="head-pic">
+          <div class="head-pic-location">
+            <i class="fas fa-location-arrow">230m</i>
+            <i class="fas fa-long-arrow-alt-left"></i>
+          </div>
+          <div class="indicator">
+            <p class="dull">.</p>
+            <p class="dull">.</p>
+            <p class="active">.</p>
+            <p class="dull">.</p>
+          </div>
+          <div class="mid-buttons">
+            <button class="shift-buttons">
+              <
+            </button>
+            <button class="heart-button"><i class="fas fa-heart"></i></button>
+            <button class="cancel-button">x</button>
+            <button class="shift-buttons">></button>
+          </div>
         </div>
-        <div class="mid-buttons">
-          <button class="shift-buttons">
-            <</button> <button class="heart-button"><i class="fas fa-heart"></i>
-          </button>
-          <button class="cancel-button">x</button>
-          <button class="shift-buttons">></button>
+        <div class="smallscreen-bottom">
+          <div class="filter">
+            <input type="search" name="search" placeholder="Filter search" />
+            <i class="fab fa-buffer"></i>
+          </div>
+          <div class="name-locate">
+            <div class="name-age">
+              <small>Name Surname, Age</small>
+              <h4>Harley Speck, 25 <span class="online">.</span></h4>
+            </div>
+            <div class="location2">
+              <small>Location, Role</small>
+              <h4>Wincousin, Lead Engineer</h4>
+            </div>
+          </div>
+          <div class="interest">
+            <small>interests</small>
+            <h4>Netflix and jogging</h4>
+          </div>
+          <div class="lang">
+            <small>Languages</small>
+            <h4>English(Proficient), Japanese(Conversational).</h4>
+            <p class="more">More Info</p>
+          </div>
+          <h2 class="chat"><i class="fas fa-comments"></i>CHAT</h2>
         </div>
-      </div>
-      <div class="smallscreen-bottom">
+      </section>
+      <aside class="user-details">
         <div class="filter">
-          <input type="search" name="search" placeholder="Filter search">
+          <input type="search" name="search" placeholder="Filter search" />
           <i class="fab fa-buffer"></i>
         </div>
         <div class="name-locate">
@@ -90,50 +123,22 @@
             <small>Name Surname, Age</small>
             <h4>Harley Speck, 25 <span class="online">.</span></h4>
           </div>
-          <div class="location2">
+          <div class="location">
             <small>Location, Role</small>
             <h4>Wincousin, Lead Engineer</h4>
           </div>
         </div>
         <div class="interest">
           <small>interests</small>
-          <h4>Netflix and jogging</h4>
+          <p>Netflix and jogging</p>
         </div>
         <div class="lang">
           <small>Languages</small>
-          <h4>English(Proficient), Japanese(Conversational).</h4>
+          <p>English(Proficient), Japanese(Conversational).</p>
           <p class="more">More Info</p>
         </div>
-        <h2 class="chat"><i class="fas fa-comments"></i>CHAT</h2>
-      </div>
-    </section>
-    <aside class="user-details">
-      <div class="filter">
-        <input type="search" name="search" placeholder="Filter search">
-        <i class="fab fa-buffer"></i>
-      </div>
-      <div class="name-locate">
-        <div class="name-age">
-          <small>Name Surname, Age</small>
-          <h4>Harley Speck, 25 <span class="online">.</span></h4>
-        </div>
-        <div class="location">
-          <small>Location, Role</small>
-          <h4>Wincousin, Lead Engineer</h4>
-        </div>
-      </div>
-      <div class="interest">
-        <small>interests</small>
-        <p>Netflix and jogging</p>
-      </div>
-      <div class="lang">
-        <small>Languages</small>
-        <p>English(Proficient), Japanese(Conversational).</p>
-        <p class="more">More Info</p>
-      </div>
-      <h2 class="chat"><i class="fas fa-comments"></i>CHAT</h2>
-    </aside>
-  </main>
-</body>
-
+        <h2 class="chat"><img src="images/gift.png" alt="" /> CHAT</h2>
+      </aside>
+    </main>
+  </body>
 </html>

@@ -1,10 +1,11 @@
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("../style/fonts/HelveticaNeuBold.ttf") format("truetype"), url("../style/fonts/helveticaneue-webfont.woff") format("woff"),
+  font-family: 'Helvetica Neue';
+  src: url('../style/fonts/HelveticaNeuBold.ttf') format('truetype'),
+    url('../style/fonts/helveticaneue-webfont.woff') format('woff');
 }
 
 body {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   background-color: rgba(192, 192, 192, 0.16);
   color: #414464;
 }
@@ -105,7 +106,7 @@ body {
 .fa-check-circle {
   font-size: 17px;
   color: #fff;
-  padding-right: 5px; 
+  padding-right: 5px;
 }
 
 .fa-cog {
@@ -225,7 +226,7 @@ body {
 
 .indicator p {
   display: inline-block;
-  font-size: 58px;
+  font-size: 45px;
   vertical-align: text-bottom;
 }
 
@@ -275,7 +276,7 @@ body {
 .filter {
   display: flex;
   padding: 5px 0 0 7px;
-  height: 80%;
+  height: 40%;
   border-radius: 10px;
 }
 
@@ -318,12 +319,12 @@ body {
 }
 
 .chat {
-  border-radius: 0 0 10px 10px; 
+  border-radius: 0 0 10px 10px;
   text-align: center;
-  padding-top: 40%;
+  padding: 0 40px;
 }
 
-.chat .fa-comments {
+.chat img {
   color: #4e50b8;
   font-size: 35px;
 }
