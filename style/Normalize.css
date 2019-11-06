@@ -431,3 +431,7 @@
   th {
     padding: 0;
   }
+  
+  i {
+    cursor: pointer;
+  }

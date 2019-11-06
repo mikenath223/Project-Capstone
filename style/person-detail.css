@@ -323,8 +323,8 @@ body {
   color: gray;
 }
 
-.pop-rating img {
-  max-width: 28%;
+.pop-rating div img {
+  max-width: 15%;
   height: auto;
 }
 
