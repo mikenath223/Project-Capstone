@@ -231,6 +231,7 @@ body {
 }
 
 .time {
+  color: gray;
   margin-left: auto;
 }
 
@@ -242,10 +243,6 @@ body {
 
 .dull {
   color: #fff;
-}
-
-.time {
-  color: gray;
 }
 
 .blue {
