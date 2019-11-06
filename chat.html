@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://kit.fontawesome.com/81924b44b8.js" crossorigin="anonymous"></script>  
+  <script src="https://kit.fontawesome.com/81924b44b8.js" crossorigin="anonymous"></script>
   <title>Chat Page | Mixin Social App</title>
   <link rel="stylesheet" href="style/Normalize.css">
   <link rel="stylesheet" href="style/chat.css">
@@ -26,23 +26,102 @@
   <main class="main-container">
     <aside class="left-side">
       <div class="user-panel">
-        <img src="images/40.jpg" alt="user">
-        <div class="user-info">
-          <h4>Percy Jackson</h4>
-          <h5>Role:<span>Full Stack Web-Dev</span></h5>
+        <div class="user-panel-temp">
+          <img src="images/40.jpg" alt="user" />
+          <div class="user-info">
+            <h4>Percy Jackson</h4>
+            <h5>Role:<span>Full Stack Web-Dev</span></h5>
+          </div>
+          <i class="fas fa-cog"></i>
         </div>
-        <p><i class="far fa-heart"></i> 257</p>
+        <div class="go-live">
+          <p><i class="far fa-heart"></i> 257</p>
+          <button><i class="far fa-check-circle"></i>Go Live!</button>
+        </div>
       </div>
       <div class="left-side-bottom">
+        <p><i class="fas fa-th"></i>Begin Encounters</p>
         <p><i class="fab fa-servicestack"></i>Nearby Co-workers</p>
+        <p class="msg-left"><i class="fas fa-play-circle"></i> Live Meeting<span class="msg-count count">12</span></p>
+        <p class="msg-left">
+          <i class="fas fa-comments"></i> Messages
+          <span class="msg-count">32</span>
+        </p>
         <p><i class="fas fa-random"></i>Shuffle Search</p>
-        <p class="msg-left"><i class="fas fa-comments"></i> Messages <span class="msg-count">32</span></p>
+        <p class="msg-left">
+          <i class="fas fa-cog"></i>Ratings <span class="msg-count">32.0</span>
+        </p>
         <p><i class="fas fa-chart-line"></i> Popularity Rating</p>
         <p><i class="fab fa-buffer"></i>Daily Tasks</p>
       </div>
     </aside>
     <section class="left-container">
-
+      <div class="search-users">
+        <i class="fas fa-search"></i>
+        <input type="search" name="search" placeholder="Search by staff">
+        <span class="edit-wrap"><i class="far fa-edit"></i></span>
+      </div>
+      <div class="chat-panel">
+        <img src="images/44.jpg" alt="user">
+        <div class="user-name">
+          <h4>Claudia Sinclair <span class="online">.</span> <small class="time">15 min</small></h4>
+          <small><i class="fas fa-check"></i>Hello ✋, Where are the files ...</small>
+        </div>
+      </div>
+      <div class="chat-panel">
+        <img src="images/3.jpg" alt="user">
+        <div class="user-name">
+          <h4>Andrew Boatman <span class="online">.</span> <small class="time">15 min</small></h4>
+          <small><i class="fas fa-check blue"></i>We all at the office wish you a speedy recovery👍 ...</small>
+        </div>
+      </div>
+      <div class="chat-panel">
+        <img src="images/128.jpg" alt="user">
+        <div class="user-name">
+          <h4>Drew Pinkman<span class="online dull">.</span> <small class="time">15 min</small></h4>
+          <small><i class="fas fa-check"></i>Guess what! my cat just did a backflip😹 ...</small>
+        </div>
+      </div>
+      <div class="chat-panel">
+        <img src="images/11.jpg" alt="user">
+        <div class="user-name">
+          <h4>Stacey Longman <span class="online dull">.</span> <small class="time">15 min</small></h4>
+          <small><i class="fas fa-check"></i>Hello, Where are the files ...</small>
+        </div>
+      </div>
+      <div class="chat-panel">
+        <img src="images/54.jpg" alt="user">
+        <div class="user-name">
+          <h4>Wilma Leapmin <span class="online">.</span> <small class="time">15 min</small></h4>
+          <small><i class="fas fa-check blue"></i>omg, you can't be ...</small>
+        </div>
+      </div>
+      <div class="chat-panel">
+        <img src="images/2.jpg" alt="user">
+        <div class="user-name">
+          <h4>Vlad Openheim <span class="online">.</span> <small class="time">15 min</small></h4>
+          <small><i class="fas fa-check"></i>My new profile pic what say you😃 ...</small>
+        </div>
+      </div>
+      <div class="chat-panel">
+        <img src="images/77.jpg" alt="user">
+        <div class="user-name">
+          <h4>Stephanie Buckman<span class="online">.</span> <small class="time">15 min</small></h4>
+          <small><i class="fas fa-check blue"></i>Hello ✋, Where are the files ...</small>
+        </div>
+      </div>
+      <div class="chat-panel">
+        <img src="images/23.jpg" alt="user">
+        <div class="user-name">
+          <h4>Claudia Sinclair <span class="online">.</span> <small class="time">15 min</small></h4>
+          <small><i class="fas fa-check"></i>Hello ✋, Where are the files ...</small>
+        </div>
+      </div>
+      <div class="bottom-chat">
+        <div><i class="fab fa-buffer"></i></div>
+        <div><i class="fas fa-envelope-open-text"></i></div>
+        <div><i class="far fa-bookmark"></i></div>
+      </div>
     </section>
   </main>
 </body>
