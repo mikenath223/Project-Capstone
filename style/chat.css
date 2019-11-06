@@ -1,10 +1,11 @@
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("../style/fonts/HelveticaNeuBold.ttf") format("truetype"), url("../style/fonts/helveticaneue-webfont.woff") format("woff"),
+  font-family: 'Helvetica Neue';
+  src: url('../style/fonts/HelveticaNeuBold.ttf') format('truetype'),
+    url('../style/fonts/helveticaneue-webfont.woff') format('woff');
 }
 
 body {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   background-color: rgba(192, 192, 192, 0.16);
   color: #414464;
 }
@@ -288,8 +289,7 @@ body {
   .head-location p,
   .head-logo,
   .head-profile,
-  .left-container .large-screen
-   {
+  .left-container .large-screen {
     display: none;
   }
   .smallscreen {
@@ -297,6 +297,12 @@ body {
   }
   .main-container {
     grid-template-columns: 1fr;
+    position: relative;
+    width: 100%;
+  }
+  .left-container {
+    width: 95%;
+    margin: 0 auto 70px auto;
   }
   .head .smallscreen {
     color: #414464;
@@ -330,7 +336,6 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 40px;
-    position: relative;
-    top: 30px;
+    top: 100%;
   }
 }
