@@ -30,9 +30,9 @@ body {
   display: flex;
   width: 30%;
   margin-left: auto;
+  margin-right: 30px;
   justify-content: space-between;
   align-items: center;
-  margin-right: 30px;
 }
 
 .fa-user-circle {
@@ -177,168 +177,34 @@ body {
   border-radius: 15px;
   height: 80%;
   display: grid;
-  position: relative;
-  grid-template-rows: repeat(9, 1fr);
+  /* position: relative; */
+  grid-template-rows: repeat(7, 1fr);
   margin-bottom: 70px;
 }
 
-.search-users {
+.fa-phone-alt {
+  font-size: 14px;
+}
+
+.top-chatbar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  height: 30%;
+  margin: 10px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.438);
 }
 
-.search-users input {
-  width: 80%;
-  border: none;
-  margin-left: 10px;
-}
-
-.edit-wrap {
-  background-color: #4e50b8;
-  width: 38px;
-  height: 38px;
-  border-radius: 5px;
-  padding: 10px 0 0 12px;
-}
-
-.fa-edit {
-  color: #fff;
-}
-
-.chat-panel {
-  display: flex;
-  padding-left: 25px;
-}
-
-.chat-panel img {
-  height: 50px;
-}
-
-.user-name {
-  padding: 5px 0 0 20px;
-  width: 80%;
-}
-
-.user-name h4 {
-  display: flex;
-  align-items: center;
-}
-
-.time {
-  margin-left: auto;
-}
-
-.online {
-  color: green;
-  font-size: 25px;
-  padding-bottom: 9px;
-}
-
-.dull {
-  color: #fff;
-}
-
-.time {
-  color: gray;
-}
-
-.blue {
-  color: blue;
-}
-
-.fa-check {
-  font-size: 13px;
-}
-
-.bottom-chat {
-  display: flex;
-  position: absolute;
-  bottom: -9%;
-  width: 100%;
-  height: 60px;
-  background-color: #fff;
-}
-
-.bottom-chat div {
-  width: 34%;
-  text-align: center;
-  padding-top: 1%;
-}
-
-.fa-buffer, .fa-bookmark, .fa-envelope-open-text {
-  font-size: 30px;
+.top-chatbar div small {
+  font-size: 12px;
   color: silver;
+  margin-left: 35%;
 }
 
-.fa-envelope-open-text {
-  color: #4e50b8;
-}
-
-.blue-border {
-  border-top: 3px solid #4e50b8;
-  background-color: #4e50b821;
+.ellipsis {
+  color: silver;
 }
 
 .smallscreen {
   display: none;
-}
-
-@media only screen and (max-width: 530px) {
-  .left-side, .head-location p, .head-logo, .head-profile, .left-container .large-screen {
-    display: none;
-  }
-  .smallscreen {
-    display: inline-block;
-  }
-  .head {
-    border-radius: 0;
-    margin: 0;
-  }
-  .main-container {
-    grid-template-columns: 1fr;
-    position: relative;
-    width: 100%;
-    height: 520px;
-  }
-  .left-container {
-    width: 95%;
-    height: max-content;
-    margin: 0 auto 70px auto;
-  }
-  .head .smallscreen {
-    color: #414464;
-  }
-  .head .fa-edit {
-    text-align: end;
-  }
-  .fa-buffer, .fa-search, .fa-user {
-    color: silver;
-    font-size: 20px;
-  }
-  .fa-th {
-    color: #fff;
-    font-size: 21px;
-  }
-  .fa-comments {
-    color: #f0916e;
-  }
-  .smallscreen .grid-wrap {
-    width: 9%;
-    background-color: #4e50b8;
-    border-radius: 5px;
-    position: absolute;
-    top: -20px;
-    margin-left: 10px;
-    height: 35px;
-    padding: 5px 0;
-  }
-  .chat-small {
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    align-items: center;
-    height: 40px;
-    margin-top: -65px;
-  }
 }
