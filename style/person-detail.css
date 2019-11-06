@@ -152,7 +152,6 @@ body {
   align-content: flex-start;
 }
 
-
 .left-side-bottom .msg-left {
   display: grid;
   grid-template-columns: 1fr 4fr 5fr;
