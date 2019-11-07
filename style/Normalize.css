@@ -432,6 +432,9 @@
     padding: 0;
   }
   
-  i {
+  i,
+  img,
+  p,
+  h2 {
     cursor: pointer;
   }
