@@ -30,9 +30,8 @@ body {
 .head-profile {
   display: flex;
   width: 30%;
-  margin-right: auto;
+  margin-left: 55%;
   justify-content: space-between;
-  align-items: center;
 }
 
 .fa-user-circle {
