@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 30%;
-  margin: 0 15px 0 auto;
+  margin: 0 45px 0 auto;
 }
 
 .fa-user-circle {
@@ -47,6 +47,7 @@ body {
   color: #4e50b8;
   font-size: 30px;
   justify-self: center;
+  padding-right: 15%;
 }
 
 .head-logo span {

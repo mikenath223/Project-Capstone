@@ -30,8 +30,7 @@ body {
 .head-profile {
   display: flex;
   width: 30%;
-  margin-left: auto;
-  margin-right: 30px;
+  margin-right: auto;
   justify-content: space-between;
   align-items: center;
 }
