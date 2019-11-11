@@ -29,6 +29,10 @@ body {
   margin: 0 5px;
 }
 
+.font-light {
+  font-weight: 400;
+}
+
 .head-profile {
   display: flex;
   justify-content: space-between;
@@ -48,10 +52,15 @@ body {
   font-size: 30px;
   justify-self: center;
   padding-right: 15%;
+  margin: 0;
 }
 
 .head-logo span {
   color: #f0916e;
+}
+
+.head-location p {
+  color: gray;
 }
 
 .main-container {
@@ -75,13 +84,16 @@ body {
   height: 80%;
 }
 
+.border-10 {
+  border-radius: 10px;
+}
+
 .user-panel {
   display: grid;
   grid-template-rows: 2fr 1fr;
   gap: 5px;
   align-items: center;
   background-color: #fff;
-  border-radius: 10px;
   padding: 0 5px;
   height: 120px;
 }
@@ -196,7 +208,7 @@ body {
   position: relative;
 }
 
-.users h3 {
+.ellipsis {
   transform: rotate(90deg);
   height: 25px;
 }
@@ -208,14 +220,14 @@ body {
   width: 17px;
   text-align: center;
   border-radius: 50%;
-  top: 15px;
+  padding-bottom: 4px;
+  top: 12px;
   right: -7px;
 }
 
 .head-pic {
   position: relative;
   margin-top: 15px;
-  border-radius: 10px;
   height: 58%;
   background: top center / cover url(../images/office-staff.jpg) no-repeat;
 }
@@ -269,21 +281,27 @@ body {
 .mid-buttons button {
   width: 14%;
   height: 40px;
+  padding-bottom: 7px;
   border: none;
   border-radius: 5px;
   background-color: #fff;
   font-size: 28px;
   color: silver;
-  box-shadow: 2px 2px 6px #000;
 }
 
 .mid-buttons .cancel-button {
   background-color: #f0916e;
   color: #fff;
+  box-shadow: 2px 2px 6px #f0916e;
 }
 
 .mid-buttons .heart-button {
   background-color: #4e50b8;
+  box-shadow: 2px 2px 6px #4e50b8;
+}
+
+.mid-buttons .shift-buttons {
+  box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.4);
 }
 
 .user-details {
@@ -292,9 +310,13 @@ body {
   height: 80%;
 }
 
-.user-details small {
+.user-details small,.smallscreen-bottom small {
   color: gray;
   font-size: 12px;
+}
+
+.user-details p {
+  margin-bottom: 10px;
 }
 
 .pop-rating {
@@ -303,7 +325,6 @@ body {
   justify-content: space-around;
   padding: 10px;
   margin-bottom: 25px;
-  border-radius: 10px;
 }
 
 .pop-rating div {
@@ -333,7 +354,6 @@ body {
   display: flex;
   padding-left: 10px;
   margin-bottom: 20px;
-  border-radius: 10px;
 }
 
 .filter input {
@@ -368,16 +388,24 @@ body {
   margin-bottom: 10px;
 }
 
-.name-age h4 {
-  display: grid;
-  grid-template-columns: 5fr 1fr;
-  align-items: center;
+.name-age p {
+  margin-top: -10px;
 }
 
 .chat {
-  border-radius: 0 0 10px 10px;
-  text-align: center;
-  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.chat img {
+  margin-right: 10px;
+}
+
+.chat {
+  color: inherit;
+  text-decoration: none;
 }
 
 .online {
@@ -386,9 +414,10 @@ body {
 }
 
 .more {
-  margin: 10px;
+  margin: 18px;
   text-align: center;
   height: 30px;
+  line-height: 30px;
   width: 80%;
   background-color: rgba(192, 192, 192, 0.274);
 }
@@ -425,7 +454,7 @@ body {
   .smallscreen-bottom {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
   .mid-buttons {
@@ -433,7 +462,7 @@ body {
   }
 
   .head-pic {
-    height: 330px;
+    height: 430px;
   }
 
   .head-pic-location .fa-location-arrow {
