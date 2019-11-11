@@ -236,7 +236,7 @@ body {
   width: 80%;
 }
 
-.user-name p, 
+.user-name p,
 .user-name h3 {
   display: flex;
   align-items: center;
@@ -373,7 +373,7 @@ body {
     top: -20px;
     margin-left: 10px;
     height: 35px;
-    line-height: 35px;    
+    line-height: 35px;
   }
 
   .chat-small {
