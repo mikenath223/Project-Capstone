@@ -7,7 +7,7 @@ https://mikenath223.github.io/Project-Capstone/
 ## Watch a video presentation of the project below.
 
 <p align="center">
-<a href="https://www.loom.com/embed/f0b51e1a79db409f97fcc16986d7936d"><img src="../images/mixin.png" alt="mixin"></a> <br>
+<a href="https://www.loom.com/embed/f0b51e1a79db409f97fcc16986d7936d"><img src="images/mixin.png" alt="mixin"></a> <br>
 Contributions:
   <a href="https://github.com/mikenath223/Project-Capstone/pulls">Make contributions here. All contributions are warmly welcomed  :)</a>
   <br/>
