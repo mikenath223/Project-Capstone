@@ -1,12 +1,8 @@
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('../style/fonts/HelveticaNeuBold.ttf') format('truetype'), url('../style/fonts/helveticaneue-webfont.woff') format('woff');
-}
-
 body {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: Helvetica, sans-serif;
   background-color: rgba(192, 192, 192, 0.16);
   color: #414464;
+  font-size: 14px;
 }
 
 .head {
@@ -23,7 +19,7 @@ body {
 .fas,
 .fab {
   color: silver;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 5px;
 }
 
@@ -50,6 +46,14 @@ body {
 
 .head-logo span {
   color: #f0916e;
+}
+
+.head-location p {
+  color: gray;
+}
+
+.head-location span {
+  color: initial;
 }
 
 .main-container {
@@ -199,14 +203,15 @@ body {
 
 .edit-wrap {
   background-color: #4e50b8;
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 30px;
   border-radius: 5px;
-  padding: 10px 0 0 12px;
+  text-align: center;
 }
 
 .fa-edit {
   color: #fff;
+  line-height: 30px;
 }
 
 .chat-panel {
@@ -264,6 +269,7 @@ body {
 
 .bottom-chat div {
   width: 34%;
+  line-height: 60px;
   text-align: center;
   padding-top: 1%;
 }

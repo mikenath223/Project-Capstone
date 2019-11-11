@@ -1,14 +1,8 @@
-@font-face {
-  font-family: 'Helvetica Neue';
-  src:
-    url('../style/fonts/HelveticaNeuBold.ttf') format('truetype'),
-    url('../style/fonts/helveticaneue-webfont.woff') format('woff');
-}
-
 body {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: Helvetica, sans-serif;
   background-color: rgba(192, 192, 192, 0.16);
   color: #414464;
+  font-size: 14px;
 }
 
 .head {
@@ -25,7 +19,7 @@ body {
 .fas,
 .fab {
   color: silver;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 5px;
 }
 
@@ -61,6 +55,10 @@ body {
 
 .head-location p {
   color: gray;
+}
+
+.head-location span {
+  color: initial;
 }
 
 .main-container {
@@ -220,7 +218,7 @@ body {
   width: 17px;
   text-align: center;
   border-radius: 50%;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
   top: 12px;
   right: -7px;
 }
@@ -281,7 +279,6 @@ body {
 .mid-buttons button {
   width: 14%;
   height: 40px;
-  padding-bottom: 7px;
   border: none;
   border-radius: 5px;
   background-color: #fff;
@@ -293,11 +290,13 @@ body {
   background-color: #f0916e;
   color: #fff;
   box-shadow: 2px 2px 6px #f0916e;
+  padding-bottom: 5px;
 }
 
 .mid-buttons .heart-button {
   background-color: #4e50b8;
   box-shadow: 2px 2px 6px #4e50b8;
+  padding-bottom: 5px;
 }
 
 .mid-buttons .shift-buttons {
@@ -317,6 +316,7 @@ body {
 
 .user-details p {
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .pop-rating {
@@ -343,6 +343,7 @@ body {
 
 .pop-rating small {
   color: gray;
+  font-weight: 400;
 }
 
 .pop-rating div img {
@@ -358,6 +359,11 @@ body {
 
 .filter input {
   border: none;
+}
+
+.filter input::placeholder {
+  font-weight: 700;
+  color: inherit;
 }
 
 .filter .fa-list-ul {
@@ -384,6 +390,10 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
+.online {
+  margin-left: 30%;
+}
+
 .name-age {
   margin-bottom: 10px;
 }
@@ -397,15 +407,13 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .chat img {
   margin-right: 10px;
-}
-
-.chat {
-  color: inherit;
-  text-decoration: none;
 }
 
 .online {
@@ -413,12 +421,15 @@ body {
   color: green;
 }
 
-.more {
+.lang .more {
   margin: 18px;
   text-align: center;
   height: 30px;
   line-height: 30px;
   width: 80%;
+  color: gray;
+  font-size: 12px;
+  font-weight: 300;
   background-color: rgba(192, 192, 192, 0.274);
 }
 
