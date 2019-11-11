@@ -3,16 +3,18 @@
 
 # View Demo
 https://mikenath223.github.io/Project-Capstone/
-<br />
+
+## Watch a video presentation of the project below.
+
+ <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+ <iframe src="https://www.loom.com/embed/f0b51e1a79db409f97fcc16986d7936d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+ </div>
 <p align="center">
   <a href="https://github.com/mikenath223/Project-Capstone/pulls">Make contributions here. All contributions are warmly welcomed  :)</a>
   <br/>
  <h3 align="center">The Project was designed by - Ukeje Michgolden</h3>
  <p align="center">
 This project is titled project capstone which involves coding an already designed template within a given timeframe.</br>
-     Watch a video presentation of the project below.</br>
-     <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/f0b51e1a79db409f97fcc16986d7936d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-     </br>
      Here is a link to the templates the pages were made from <a href="https://www.behance.net/gallery/70285515/Swipex-This-application-for-dating">Social chat app template</a>
    <br />
    <a href="https://github.com/mikenath223/Project-Capstone/tree/social-page"><strong>Explore the docs »</strong></a>
