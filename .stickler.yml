@@ -4,7 +4,7 @@ linters:
     fixer: true
 files:
     ignore:
-        - 'style/Normalize.css'
+        - 'css/Normalize.css'
 fixers:
     enable: true
     
