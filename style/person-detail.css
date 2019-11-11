@@ -310,7 +310,8 @@ body {
   height: 80%;
 }
 
-.user-details small,.smallscreen-bottom small {
+.user-details small,
+.smallscreen-bottom small {
   color: gray;
   font-size: 12px;
 }
