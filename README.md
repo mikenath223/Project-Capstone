@@ -1,12 +1,12 @@
 # EMPLOYEE CHAT APP
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
+-This is an Employee chat app[Front-End-Design]
 
 # View Demo
 https://mikenath223.github.io/Project-Capstone/
 <br />
 <p align="center">
+  <a href="https://github.com/mikenath223/Project-Capstone/pulls">Make contributions here. All contributions are warmly welcomed  :)</a>
+  <br/>
  <h3 align="center">The Project was designed by - Ukeje Michgolden</h3>
  <p align="center">
 This project is titled project capstone which involves coding an already designed template within a given timeframe.</br>

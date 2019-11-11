@@ -135,7 +135,7 @@ body {
   margin-left: 10px;
 }
 
-.user-info h4 {
+.user-info h3 {
   margin-bottom: 5px;
 }
 
@@ -320,6 +320,10 @@ body {
   font-weight: 700;
 }
 
+.smallscreen-bottom p {
+  font-weight: 700;
+}
+
 .pop-rating {
   display: flex;
   flex-direction: column;
@@ -488,6 +492,10 @@ body {
   .name-locate {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .online {
+    margin-left: 0;
   }
 
   .chat {
