@@ -1,0 +1,10 @@
+linters:
+  stylelint:
+    config: 'stylelint.config.js'
+    fixer: true
+files:
+    ignore:
+        - 'css/Normalize.css'
+fixers:
+    enable: true
+    
