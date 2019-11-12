@@ -244,7 +244,7 @@ body {
   display: flex;
   align-items: center;
   font-weight: 700;
-  color: gray
+  color: gray;
 }
 
 .user-name a {
