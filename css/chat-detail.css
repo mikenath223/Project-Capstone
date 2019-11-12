@@ -241,7 +241,6 @@ body {
 }
 
 .chat-msg-body p {
-  font-weight: 700;
   border-radius: 5px;
   background-color: #4e50b827;
   height: max-content;
