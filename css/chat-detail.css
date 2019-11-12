@@ -46,6 +46,10 @@ body {
   color: #f0916e;
 }
 
+.head-logo a {
+  text-decoration: none;
+}
+
 .head-location p {
   color: gray;
 }
@@ -167,7 +171,6 @@ body {
   background-color: #f0916e;
   border-radius: 3px;
   text-align: center;
-  box-shadow: 2px 2px 6px #414464;
 }
 
 .left-side-bottom .count {
@@ -242,7 +245,8 @@ body {
   border-radius: 5px;
   background-color: #4e50b827;
   height: max-content;
-  padding: 5px 0 0 20px;
+  padding: 10px 0 10px 20px;
+  font-weight: 400;
 }
 
 .time {

@@ -49,6 +49,10 @@ body {
   color: #f0916e;
 }
 
+.head-logo a {
+  text-decoration: none;
+}
+
 .head-msg {
   font-weight: 700;
   font-size: 20px;
@@ -175,7 +179,6 @@ body {
   background-color: #f0916e;
   border-radius: 3px;
   text-align: center;
-  box-shadow: 2px 2px 6px #414464;
 }
 
 .left-side-bottom .count {
@@ -241,6 +244,7 @@ body {
   display: flex;
   align-items: center;
   font-weight: 700;
+  color: gray
 }
 
 .user-name a {
@@ -262,10 +266,6 @@ body {
 
 .dull {
   color: #fff;
-}
-
-.blue {
-  color: blue;
 }
 
 .fa-check {
