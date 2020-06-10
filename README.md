@@ -53,19 +53,22 @@ Here is a video presentation of the project highlighting the features of it in t
 
 # Built With
   - Passion for coding 💜
-  - `HTML5`
-  - `CSS3`
+  - `HTML`
+  - `CSS`
 
 ## Validations
 
-- W3c Html validator - https://validator.w3.org/
-- Stickler css linter
+- W3C HTML validator - https://validator.w3.org/
+- Stickler CSS linter
 
 # Author
-Ukeje Michgolden :man: - [Github profile](https://github.com/mikenath223)
 
-* [LinkedIn](https://ng.linkedin.com/in/michgolden-ukeje-73b01614b)
-* [Twitter](https://twitter.com/Michgolden_Nath)
+**Michgolden Ukeje**
+
+- Github: [@mikenath223](https://github.com/mikenath223)
+- Twitter: [@Michgolden_Nath](https://twitter.com/MichgoldenU)
+- Linkedin: [Ukeje Michgolden](https://https://www.linkedin.com/in/michgoldenukeje/)
+  <br />
 
 
 # License
